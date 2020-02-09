@@ -22,6 +22,7 @@ $c_email= trim(_POST['c_email']);
 $c_phonenum= trim(_POST['c_phonenum']);
 $c_adress= trim(_POST['c_adress']);
 
+
 #Empty Error Message
 if(!$c_id){ echo "아이디를 입력해주세요.";}
 else if($c_id>5||$c_id<13){ echo"아이디는 5~12자 이내여야합니다.";}
