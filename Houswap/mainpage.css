@@ -1,0 +1,48 @@
+@charset "EUC-KR";
+
+body{
+	font-family: "고딕체", Georgia, Time New Roman, sans-serif; 
+}
+
+div{
+	border: 1px solid #3b90f7;
+}
+
+h1{
+	color:#3b90f7;
+	font-weigt:20px;
+	font-size:30px; 
+	padding:0px 10px 50px;
+
+}
+input{
+	border:1px solid #3b90f7;
+	width:250px;
+	height:31px;
+	padding:10px;
+}
+
+
+table{
+	order-collapse: seperate;
+}
+
+td{
+		padding:0px 30px 0px 0px;
+}
+
+a{
+	text-decoration: none; color:#3b90f7;
+}
+
+input[type=submit]{
+	width:50px;
+	height:31px;
+	background:#3b90f7;
+	line-height:4px; /*버튼 내부에 글자가들어가는 공간을 높이를 주어 글자가 버튼 바닥에 붙는것을 해결함*/
+	font-size:15px;
+	color:#ffffff;
+	border:0;
+	vertical-align:bottom; /*vertical-align을 안쓰면 버튼이 위로 떠 아래로 고정시켜줌*/
+}
+/*submit 버튼의 디자인을 기존 버튼과 같게 바꿔줌*/
